@@ -1,5 +1,7 @@
 # How to notify slack message when merge
 
+
+
 ```yaml
 on:
   pull_request:
@@ -14,3 +16,8 @@ jobs:
       - name: Notification
         run: echo The PR was merged
 ```
+
+
+# Reference
+
+https://docs.github.com/en/graphql/reference/objects#pullrequest
