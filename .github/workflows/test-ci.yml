@@ -31,7 +31,11 @@ jobs:
             ${{ runner.os }}-nuget
 
       - name: Install dependencies
-        run: dotnet restore
+        run: |
+          cd ./Uqs
+          dotnet restore
 
       - name: Test
-        run: dotnet test --no-restore
+        run: |
+          cd ./Uqs
+          dotnet test --no-restore
