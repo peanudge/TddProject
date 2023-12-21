@@ -7,7 +7,7 @@ on:
 
 jobs:
   if_merged:
-    if: github.event.pull_request.merged == true && contains( github.event.pull_request.labels.*.name, 'migrations')
+    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'migrations')
     runs-on: ubuntu-latest
     steps:
       - name: Notification
