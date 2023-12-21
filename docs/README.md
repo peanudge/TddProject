@@ -1,4 +1,4 @@
-# How to TDD
+# How to notify slack message when merge
 
 ```yaml
 on:
