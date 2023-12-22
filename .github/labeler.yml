@@ -5,6 +5,6 @@ documentation:
 source:
   - changed-files:
       - any-glob-to-any-file: "**"
-      - all-globs-to-all-files:
+      - any-glob-to-all-files:
           - "!docs/*"
           - "!.github/*"
