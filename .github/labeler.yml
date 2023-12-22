@@ -6,6 +6,6 @@ source:
   - all:
       - changed-files:
           - any-glob-to-any-file: "Uqs/**"
-          - any-glob-to-all-files:
+          - all-glob-to-all-files:
               - "!Uqs/docs/**"
               - "!Uqs/logs/**"
