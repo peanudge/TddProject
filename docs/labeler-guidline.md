@@ -1,3 +1,17 @@
 # Labeler Guide
 
 > https://github.com/actions/labeler
+
+```
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: "docs/*"
+
+source:
+  - changed-files:
+      - any-glob-to-any-file: "**"
+      - any-glob-to-all-files:
+          - "!docs/*"
+          - "!.github/*"
+
+```
