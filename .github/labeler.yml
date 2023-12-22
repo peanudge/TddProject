@@ -4,5 +4,4 @@ documentation:
 
 source:
   - changed-files:
-      - any-glob-to-any-file: "*"
-      - all-globs-to-all-files: "!docs/*"
+      - all-globs-to-any-files: ["*", "!docs/*"]
