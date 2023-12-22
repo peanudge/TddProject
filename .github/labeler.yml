@@ -5,7 +5,7 @@ documentation:
 source:
   - all:
       - changed-files:
-          - any-glob-to-any-file: "Uqs/**/*"
           - all-globs-to-all-files:
+              - "Uqs/**/*"
               - "!Uqs/docs/**/*"
               - "!Uqs/logs/**/*"
