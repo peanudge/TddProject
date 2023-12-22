@@ -8,3 +8,4 @@ source:
           - any-glob-to-any-file: "Uqs/**"
           - any-glob-to-all-files:
               - "!Uqs/docs/**"
+              - "!Uqs/logs/**"
