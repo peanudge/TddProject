@@ -1,4 +1,4 @@
-# slack message when merge
+# Notification slack message when merge
 
 ```yaml
 on:
