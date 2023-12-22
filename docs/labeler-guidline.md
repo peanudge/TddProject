@@ -1,7 +1,5 @@
 # Labeler Guide
 
-> https://github.com/actions/labeler
-
 ```
 documentation:
   - changed-files:
@@ -13,5 +11,8 @@ source:
           - "!docs/*"
           - "!.github/*"
           - "**"
-
 ```
+
+# References
+
+> https://github.com/actions/labeler
