@@ -5,7 +5,6 @@ public class Division
     public static decimal Divide(int dividend, int divisor)
     {
         decimal quotient = dividend / divisor;
-        Console.WriteLine("TEST");
         return quotient;
     }
 }
