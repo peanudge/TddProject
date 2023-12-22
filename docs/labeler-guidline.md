@@ -9,9 +9,9 @@ documentation:
 
 source:
   - changed-files:
-      - any-glob-to-any-file: "**"
-      - any-glob-to-all-files:
+      - all-globs-to-all-files:
           - "!docs/*"
           - "!.github/*"
+          - "**"
 
 ```
