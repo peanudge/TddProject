@@ -6,11 +6,13 @@ documentation:
       - any-glob-to-any-file: "docs/*"
 
 source:
-  - changed-files:
-      - all-globs-to-all-files:
-          - "!docs/*"
-          - "!.github/*"
-          - "**"
+  - all:
+      - changed-files:
+          - any-glob-to-any-file: "**"
+          - any-glob-to-all-files:
+              - "!docs/*"
+              - "!.github/*"
+
 ```
 
 # References
