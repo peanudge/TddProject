@@ -1,7 +1,5 @@
 # How to notify slack message when merge
 
-
-
 ```yaml
 on:
   pull_request:
@@ -16,7 +14,6 @@ jobs:
       - name: Notification
         run: echo The PR was merged
 ```
-
 
 # Reference
 
