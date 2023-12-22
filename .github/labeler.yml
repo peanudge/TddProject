@@ -5,4 +5,4 @@ documentation:
 source:
   - changed-files:
       - any-glob-to-any-file: "*"
-      - any-glob-to-all-file: ["!docs/*", "!README.md"]
+      - any-glob-to-all-files: ["!docs/*", "!README.md"]
