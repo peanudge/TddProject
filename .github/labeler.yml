@@ -5,7 +5,6 @@ documentation:
 source:
   - all:
       - changed-files:
-          - any-glob-to-any-file: "**"
+          - any-glob-to-any-file: "Uqs/**"
           - any-glob-to-all-files:
-              - "!docs/*"
-              - "!.github/*"
+              - "!Uqs/docs/**"
